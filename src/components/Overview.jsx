@@ -23,7 +23,7 @@ export const Overview = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+            <div className='grid grid-cols-1  lg:grid-cols-3'>
                 <NextPayout title={"Next Payout"} amount={"92,312.20"} orderCount={"13"} NextPaymentDate={"Today, 4:00PM"} />
                 <RevenueCard title={"Amount Pending"} amount={"92,312.20"} orderCount={"13"} />
                 <AmountProcessd title={"Amount Processed"} amount={"23,92,312"} />
